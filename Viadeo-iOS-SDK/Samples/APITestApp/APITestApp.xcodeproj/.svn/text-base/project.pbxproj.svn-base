@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BB1F648142B8B7F00CC57C4 /* VDLoginPopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1F63B142B8B7F00CC57C4 /* VDLoginPopUp.m */; };
+		5BB1F649142B8B7F00CC57C4 /* VDPopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1F63D142B8B7F00CC57C4 /* VDPopUp.m */; };
+		5BB1F64A142B8B7F00CC57C4 /* VDRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1F63F142B8B7F00CC57C4 /* VDRequest.m */; };
+		5BB1F64B142B8B7F00CC57C4 /* Viadeo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1F641142B8B7F00CC57C4 /* Viadeo.m */; };
+		5BB1F64C142B8B7F00CC57C4 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1F645142B8B7F00CC57C4 /* JSONKit.m */; };
+		5BB1F64D142B8B7F00CC57C4 /* VDPopUp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5BB1F646142B8B7F00CC57C4 /* VDPopUp.bundle */; };
+		5BB4658C142B239E00B2A0E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB4658B142B239E00B2A0E4 /* UIKit.framework */; };
+		5BB4658E142B239E00B2A0E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB4658D142B239E00B2A0E4 /* Foundation.framework */; };
+		5BB46590142B239E00B2A0E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB4658F142B239E00B2A0E4 /* CoreGraphics.framework */; };
+		5BB46596142B239E00B2A0E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BB46594142B239E00B2A0E4 /* InfoPlist.strings */; };
+		5BB46598142B239E00B2A0E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB46597142B239E00B2A0E4 /* main.m */; };
+		5BB4659C142B239E00B2A0E4 /* APITestAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB4659B142B239E00B2A0E4 /* APITestAppAppDelegate.m */; };
+		5BB465A4142B239E00B2A0E4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB465A3142B239E00B2A0E4 /* SenTestingKit.framework */; };
+		5BB465A5142B239E00B2A0E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB4658B142B239E00B2A0E4 /* UIKit.framework */; };
+		5BB465A6142B239E00B2A0E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB4658D142B239E00B2A0E4 /* Foundation.framework */; };
+		5BB465AE142B239E00B2A0E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BB465AC142B239E00B2A0E4 /* InfoPlist.strings */; };
+		5BB465B1142B239E00B2A0E4 /* APITestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB465B0142B239E00B2A0E4 /* APITestAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BB465A7142B239E00B2A0E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BB4657E142B239E00B2A0E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BB46586142B239E00B2A0E4;
+			remoteInfo = APITestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BB1F638142B8B7F00CC57C4 /* VDConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDConnect.h; sourceTree = "<group>"; };
+		5BB1F639142B8B7F00CC57C4 /* VDConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDConstants.h; sourceTree = "<group>"; };
+		5BB1F63A142B8B7F00CC57C4 /* VDLoginPopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDLoginPopUp.h; sourceTree = "<group>"; };
+		5BB1F63B142B8B7F00CC57C4 /* VDLoginPopUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDLoginPopUp.m; sourceTree = "<group>"; };
+		5BB1F63C142B8B7F00CC57C4 /* VDPopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPopUp.h; sourceTree = "<group>"; };
+		5BB1F63D142B8B7F00CC57C4 /* VDPopUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPopUp.m; sourceTree = "<group>"; };
+		5BB1F63E142B8B7F00CC57C4 /* VDRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDRequest.h; sourceTree = "<group>"; };
+		5BB1F63F142B8B7F00CC57C4 /* VDRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDRequest.m; sourceTree = "<group>"; };
+		5BB1F640142B8B7F00CC57C4 /* Viadeo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Viadeo.h; sourceTree = "<group>"; };
+		5BB1F641142B8B7F00CC57C4 /* Viadeo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Viadeo.m; sourceTree = "<group>"; };
+		5BB1F644142B8B7F00CC57C4 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		5BB1F645142B8B7F00CC57C4 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		5BB1F646142B8B7F00CC57C4 /* VDPopUp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VDPopUp.bundle; sourceTree = "<group>"; };
+		5BB46587142B239E00B2A0E4 /* APITestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APITestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB4658B142B239E00B2A0E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5BB4658D142B239E00B2A0E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5BB4658F142B239E00B2A0E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5BB46593142B239E00B2A0E4 /* APITestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APITestApp-Info.plist"; sourceTree = "<group>"; };
+		5BB46595142B239E00B2A0E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BB46597142B239E00B2A0E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BB46599142B239E00B2A0E4 /* APITestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APITestApp-Prefix.pch"; sourceTree = "<group>"; };
+		5BB4659A142B239E00B2A0E4 /* APITestAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APITestAppAppDelegate.h; sourceTree = "<group>"; };
+		5BB4659B142B239E00B2A0E4 /* APITestAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APITestAppAppDelegate.m; sourceTree = "<group>"; };
+		5BB465A2142B239E00B2A0E4 /* APITestAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APITestAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB465A3142B239E00B2A0E4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5BB465AB142B239E00B2A0E4 /* APITestAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APITestAppTests-Info.plist"; sourceTree = "<group>"; };
+		5BB465AD142B239E00B2A0E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BB465AF142B239E00B2A0E4 /* APITestAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APITestAppTests.h; sourceTree = "<group>"; };
+		5BB465B0142B239E00B2A0E4 /* APITestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APITestAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BB46584142B239E00B2A0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB4658C142B239E00B2A0E4 /* UIKit.framework in Frameworks */,
+				5BB4658E142B239E00B2A0E4 /* Foundation.framework in Frameworks */,
+				5BB46590142B239E00B2A0E4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB4659E142B239E00B2A0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB465A4142B239E00B2A0E4 /* SenTestingKit.framework in Frameworks */,
+				5BB465A5142B239E00B2A0E4 /* UIKit.framework in Frameworks */,
+				5BB465A6142B239E00B2A0E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BB1F636142B8B7F00CC57C4 /* Viadeo-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				5BB1F637142B8B7F00CC57C4 /* Main */,
+				5BB1F642142B8B7F00CC57C4 /* Parser */,
+				5BB1F646142B8B7F00CC57C4 /* VDPopUp.bundle */,
+			);
+			name = "Viadeo-iOS-SDK";
+			path = "../../../src/Viadeo-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		5BB1F637142B8B7F00CC57C4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5BB1F638142B8B7F00CC57C4 /* VDConnect.h */,
+				5BB1F639142B8B7F00CC57C4 /* VDConstants.h */,
+				5BB1F63A142B8B7F00CC57C4 /* VDLoginPopUp.h */,
+				5BB1F63B142B8B7F00CC57C4 /* VDLoginPopUp.m */,
+				5BB1F63C142B8B7F00CC57C4 /* VDPopUp.h */,
+				5BB1F63D142B8B7F00CC57C4 /* VDPopUp.m */,
+				5BB1F63E142B8B7F00CC57C4 /* VDRequest.h */,
+				5BB1F63F142B8B7F00CC57C4 /* VDRequest.m */,
+				5BB1F640142B8B7F00CC57C4 /* Viadeo.h */,
+				5BB1F641142B8B7F00CC57C4 /* Viadeo.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5BB1F642142B8B7F00CC57C4 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				5BB1F643142B8B7F00CC57C4 /* JSONKit */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		5BB1F643142B8B7F00CC57C4 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				5BB1F644142B8B7F00CC57C4 /* JSONKit.h */,
+				5BB1F645142B8B7F00CC57C4 /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		5BB4657C142B239E00B2A0E4 = {
+			isa = PBXGroup;
+			children = (
+				5BB46591142B239E00B2A0E4 /* APITestApp */,
+				5BB465A9142B239E00B2A0E4 /* APITestAppTests */,
+				5BB4658A142B239E00B2A0E4 /* Frameworks */,
+				5BB46588142B239E00B2A0E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BB46588142B239E00B2A0E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BB46587142B239E00B2A0E4 /* APITestApp.app */,
+				5BB465A2142B239E00B2A0E4 /* APITestAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BB4658A142B239E00B2A0E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BB4658B142B239E00B2A0E4 /* UIKit.framework */,
+				5BB4658D142B239E00B2A0E4 /* Foundation.framework */,
+				5BB4658F142B239E00B2A0E4 /* CoreGraphics.framework */,
+				5BB465A3142B239E00B2A0E4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BB46591142B239E00B2A0E4 /* APITestApp */ = {
+			isa = PBXGroup;
+			children = (
+				5BB1F636142B8B7F00CC57C4 /* Viadeo-iOS-SDK */,
+				5BB4659A142B239E00B2A0E4 /* APITestAppAppDelegate.h */,
+				5BB4659B142B239E00B2A0E4 /* APITestAppAppDelegate.m */,
+				5BB46592142B239E00B2A0E4 /* Supporting Files */,
+			);
+			path = APITestApp;
+			sourceTree = "<group>";
+		};
+		5BB46592142B239E00B2A0E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BB46593142B239E00B2A0E4 /* APITestApp-Info.plist */,
+				5BB46594142B239E00B2A0E4 /* InfoPlist.strings */,
+				5BB46597142B239E00B2A0E4 /* main.m */,
+				5BB46599142B239E00B2A0E4 /* APITestApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BB465A9142B239E00B2A0E4 /* APITestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BB465AF142B239E00B2A0E4 /* APITestAppTests.h */,
+				5BB465B0142B239E00B2A0E4 /* APITestAppTests.m */,
+				5BB465AA142B239E00B2A0E4 /* Supporting Files */,
+			);
+			path = APITestAppTests;
+			sourceTree = "<group>";
+		};
+		5BB465AA142B239E00B2A0E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BB465AB142B239E00B2A0E4 /* APITestAppTests-Info.plist */,
+				5BB465AC142B239E00B2A0E4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BB46586142B239E00B2A0E4 /* APITestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB465B4142B239E00B2A0E4 /* Build configuration list for PBXNativeTarget "APITestApp" */;
+			buildPhases = (
+				5BB46583142B239E00B2A0E4 /* Sources */,
+				5BB46584142B239E00B2A0E4 /* Frameworks */,
+				5BB46585142B239E00B2A0E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APITestApp;
+			productName = APITestApp;
+			productReference = 5BB46587142B239E00B2A0E4 /* APITestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BB465A1142B239E00B2A0E4 /* APITestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB465B7142B239E00B2A0E4 /* Build configuration list for PBXNativeTarget "APITestAppTests" */;
+			buildPhases = (
+				5BB4659D142B239E00B2A0E4 /* Sources */,
+				5BB4659E142B239E00B2A0E4 /* Frameworks */,
+				5BB4659F142B239E00B2A0E4 /* Resources */,
+				5BB465A0142B239E00B2A0E4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BB465A8142B239E00B2A0E4 /* PBXTargetDependency */,
+			);
+			name = APITestAppTests;
+			productName = APITestAppTests;
+			productReference = 5BB465A2142B239E00B2A0E4 /* APITestAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BB4657E142B239E00B2A0E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5BB46581142B239E00B2A0E4 /* Build configuration list for PBXProject "APITestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BB4657C142B239E00B2A0E4;
+			productRefGroup = 5BB46588142B239E00B2A0E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BB46586142B239E00B2A0E4 /* APITestApp */,
+				5BB465A1142B239E00B2A0E4 /* APITestAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BB46585142B239E00B2A0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB46596142B239E00B2A0E4 /* InfoPlist.strings in Resources */,
+				5BB1F64D142B8B7F00CC57C4 /* VDPopUp.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB4659F142B239E00B2A0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB465AE142B239E00B2A0E4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BB465A0142B239E00B2A0E4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BB46583142B239E00B2A0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB46598142B239E00B2A0E4 /* main.m in Sources */,
+				5BB4659C142B239E00B2A0E4 /* APITestAppAppDelegate.m in Sources */,
+				5BB1F648142B8B7F00CC57C4 /* VDLoginPopUp.m in Sources */,
+				5BB1F649142B8B7F00CC57C4 /* VDPopUp.m in Sources */,
+				5BB1F64A142B8B7F00CC57C4 /* VDRequest.m in Sources */,
+				5BB1F64B142B8B7F00CC57C4 /* Viadeo.m in Sources */,
+				5BB1F64C142B8B7F00CC57C4 /* JSONKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB4659D142B239E00B2A0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB465B1142B239E00B2A0E4 /* APITestAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BB465A8142B239E00B2A0E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BB46586142B239E00B2A0E4 /* APITestApp */;
+			targetProxy = 5BB465A7142B239E00B2A0E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BB46594142B239E00B2A0E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BB46595142B239E00B2A0E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5BB465AC142B239E00B2A0E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BB465AD142B239E00B2A0E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BB465B2142B239E00B2A0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5BB465B3142B239E00B2A0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BB465B5142B239E00B2A0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/ViadeoAPI/Release-iphoneos\"",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/ViadeoAPI/Debug-iphoneos\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APITestApp/APITestApp-Prefix.pch";
+				INFOPLIST_FILE = "APITestApp/APITestApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5BB465B6142B239E00B2A0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/ViadeoAPI/Release-iphoneos\"",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/ViadeoAPI/Debug-iphoneos\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APITestApp/APITestApp-Prefix.pch";
+				INFOPLIST_FILE = "APITestApp/APITestApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5BB465B8142B239E00B2A0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/APITestApp.app/APITestApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APITestApp/APITestApp-Prefix.pch";
+				INFOPLIST_FILE = "APITestAppTests/APITestAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5BB465B9142B239E00B2A0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/APITestApp.app/APITestApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APITestApp/APITestApp-Prefix.pch";
+				INFOPLIST_FILE = "APITestAppTests/APITestAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BB46581142B239E00B2A0E4 /* Build configuration list for PBXProject "APITestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB465B2142B239E00B2A0E4 /* Debug */,
+				5BB465B3142B239E00B2A0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB465B4142B239E00B2A0E4 /* Build configuration list for PBXNativeTarget "APITestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB465B5142B239E00B2A0E4 /* Debug */,
+				5BB465B6142B239E00B2A0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB465B7142B239E00B2A0E4 /* Build configuration list for PBXNativeTarget "APITestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB465B8142B239E00B2A0E4 /* Debug */,
+				5BB465B9142B239E00B2A0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BB4657E142B239E00B2A0E4 /* Project object */;
+}

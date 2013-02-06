@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B0CEA33142B876E002B6102 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0CEA32142B876E002B6102 /* Foundation.framework */; };
+		5B0CEA41142B876E002B6102 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0CEA40142B876E002B6102 /* SenTestingKit.framework */; };
+		5B0CEA43142B876E002B6102 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0CEA42142B876E002B6102 /* UIKit.framework */; };
+		5B0CEA44142B876E002B6102 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0CEA32142B876E002B6102 /* Foundation.framework */; };
+		5B0CEA47142B876E002B6102 /* libViadeo-iOS-SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0CEA2F142B876E002B6102 /* libViadeo-iOS-SDK.a */; };
+		5B0CEA4D142B876F002B6102 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B0CEA4B142B876F002B6102 /* InfoPlist.strings */; };
+		5B0CEA50142B876F002B6102 /* Viadeo_iOS_SDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0CEA4F142B876F002B6102 /* Viadeo_iOS_SDKTests.m */; };
+		5BB1F5D2142B897200CC57C4 /* VDConnect.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB1F5C3142B897200CC57C4 /* VDConnect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BB1F5D3142B897200CC57C4 /* VDConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB1F5C4142B897200CC57C4 /* VDConstants.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5BB1F5D4142B897200CC57C4 /* VDLoginPopUp.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB1F5C5142B897200CC57C4 /* VDLoginPopUp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5BB1F5D5142B897200CC57C4 /* VDLoginPopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1F5C6142B897200CC57C4 /* VDLoginPopUp.m */; };
+		5BB1F5D6142B897200CC57C4 /* VDPopUp.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB1F5C7142B897200CC57C4 /* VDPopUp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5BB1F5D7142B897200CC57C4 /* VDPopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1F5C8142B897200CC57C4 /* VDPopUp.m */; };
+		5BB1F5D8142B897200CC57C4 /* VDRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB1F5C9142B897200CC57C4 /* VDRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5BB1F5D9142B897200CC57C4 /* VDRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1F5CA142B897200CC57C4 /* VDRequest.m */; };
+		5BB1F5DA142B897200CC57C4 /* Viadeo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB1F5CB142B897200CC57C4 /* Viadeo.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5BB1F5DB142B897200CC57C4 /* Viadeo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1F5CC142B897200CC57C4 /* Viadeo.m */; };
+		5BB1F5DC142B897200CC57C4 /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB1F5CF142B897200CC57C4 /* JSONKit.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5BB1F5DD142B897200CC57C4 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB1F5D0142B897200CC57C4 /* JSONKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B0CEA45142B876E002B6102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B0CEA26142B876E002B6102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B0CEA2E142B876E002B6102;
+			remoteInfo = "Viadeo-iOS-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B0CEA2F142B876E002B6102 /* libViadeo-iOS-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libViadeo-iOS-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0CEA32142B876E002B6102 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B0CEA36142B876E002B6102 /* Viadeo-iOS-SDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Viadeo-iOS-SDK-Prefix.pch"; sourceTree = "<group>"; };
+		5B0CEA3F142B876E002B6102 /* Viadeo-iOS-SDKTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Viadeo-iOS-SDKTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0CEA40142B876E002B6102 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5B0CEA42142B876E002B6102 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5B0CEA4A142B876F002B6102 /* Viadeo-iOS-SDKTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Viadeo-iOS-SDKTests-Info.plist"; sourceTree = "<group>"; };
+		5B0CEA4C142B876F002B6102 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B0CEA4E142B876F002B6102 /* Viadeo_iOS_SDKTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Viadeo_iOS_SDKTests.h; sourceTree = "<group>"; };
+		5B0CEA4F142B876F002B6102 /* Viadeo_iOS_SDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Viadeo_iOS_SDKTests.m; sourceTree = "<group>"; };
+		5BB1F5C3142B897200CC57C4 /* VDConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDConnect.h; sourceTree = "<group>"; };
+		5BB1F5C4142B897200CC57C4 /* VDConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDConstants.h; sourceTree = "<group>"; };
+		5BB1F5C5142B897200CC57C4 /* VDLoginPopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDLoginPopUp.h; sourceTree = "<group>"; };
+		5BB1F5C6142B897200CC57C4 /* VDLoginPopUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDLoginPopUp.m; sourceTree = "<group>"; };
+		5BB1F5C7142B897200CC57C4 /* VDPopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDPopUp.h; sourceTree = "<group>"; };
+		5BB1F5C8142B897200CC57C4 /* VDPopUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDPopUp.m; sourceTree = "<group>"; };
+		5BB1F5C9142B897200CC57C4 /* VDRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDRequest.h; sourceTree = "<group>"; };
+		5BB1F5CA142B897200CC57C4 /* VDRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDRequest.m; sourceTree = "<group>"; };
+		5BB1F5CB142B897200CC57C4 /* Viadeo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Viadeo.h; sourceTree = "<group>"; };
+		5BB1F5CC142B897200CC57C4 /* Viadeo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Viadeo.m; sourceTree = "<group>"; };
+		5BB1F5CF142B897200CC57C4 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		5BB1F5D0142B897200CC57C4 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		5BB1F5D1142B897200CC57C4 /* VDPopUp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VDPopUp.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B0CEA2C142B876E002B6102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0CEA33142B876E002B6102 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0CEA3B142B876E002B6102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0CEA41142B876E002B6102 /* SenTestingKit.framework in Frameworks */,
+				5B0CEA43142B876E002B6102 /* UIKit.framework in Frameworks */,
+				5B0CEA44142B876E002B6102 /* Foundation.framework in Frameworks */,
+				5B0CEA47142B876E002B6102 /* libViadeo-iOS-SDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B0CEA24142B876E002B6102 = {
+			isa = PBXGroup;
+			children = (
+				5B0CEA34142B876E002B6102 /* Viadeo-iOS-SDK */,
+				5B0CEA48142B876E002B6102 /* Viadeo-iOS-SDKTests */,
+				5B0CEA31142B876E002B6102 /* Frameworks */,
+				5B0CEA30142B876E002B6102 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B0CEA30142B876E002B6102 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B0CEA2F142B876E002B6102 /* libViadeo-iOS-SDK.a */,
+				5B0CEA3F142B876E002B6102 /* Viadeo-iOS-SDKTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B0CEA31142B876E002B6102 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B0CEA32142B876E002B6102 /* Foundation.framework */,
+				5B0CEA40142B876E002B6102 /* SenTestingKit.framework */,
+				5B0CEA42142B876E002B6102 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B0CEA34142B876E002B6102 /* Viadeo-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				5BB1F5D1142B897200CC57C4 /* VDPopUp.bundle */,
+				5BB1F5CD142B897200CC57C4 /* Parser */,
+				5BB1F5C2142B897200CC57C4 /* Main */,
+				5B0CEA35142B876E002B6102 /* Supporting Files */,
+			);
+			path = "Viadeo-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		5B0CEA35142B876E002B6102 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B0CEA36142B876E002B6102 /* Viadeo-iOS-SDK-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B0CEA48142B876E002B6102 /* Viadeo-iOS-SDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B0CEA4E142B876F002B6102 /* Viadeo_iOS_SDKTests.h */,
+				5B0CEA4F142B876F002B6102 /* Viadeo_iOS_SDKTests.m */,
+				5B0CEA49142B876F002B6102 /* Supporting Files */,
+			);
+			path = "Viadeo-iOS-SDKTests";
+			sourceTree = "<group>";
+		};
+		5B0CEA49142B876F002B6102 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B0CEA4A142B876F002B6102 /* Viadeo-iOS-SDKTests-Info.plist */,
+				5B0CEA4B142B876F002B6102 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BB1F5C2142B897200CC57C4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5BB1F5C3142B897200CC57C4 /* VDConnect.h */,
+				5BB1F5C4142B897200CC57C4 /* VDConstants.h */,
+				5BB1F5C7142B897200CC57C4 /* VDPopUp.h */,
+				5BB1F5C8142B897200CC57C4 /* VDPopUp.m */,
+				5BB1F5C5142B897200CC57C4 /* VDLoginPopUp.h */,
+				5BB1F5C6142B897200CC57C4 /* VDLoginPopUp.m */,
+				5BB1F5C9142B897200CC57C4 /* VDRequest.h */,
+				5BB1F5CA142B897200CC57C4 /* VDRequest.m */,
+				5BB1F5CB142B897200CC57C4 /* Viadeo.h */,
+				5BB1F5CC142B897200CC57C4 /* Viadeo.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5BB1F5CD142B897200CC57C4 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				5BB1F5CE142B897200CC57C4 /* JSONKit */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		5BB1F5CE142B897200CC57C4 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				5BB1F5CF142B897200CC57C4 /* JSONKit.h */,
+				5BB1F5D0142B897200CC57C4 /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B0CEA2D142B876E002B6102 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB1F5D2142B897200CC57C4 /* VDConnect.h in Headers */,
+				5BB1F5DA142B897200CC57C4 /* Viadeo.h in Headers */,
+				5BB1F5D3142B897200CC57C4 /* VDConstants.h in Headers */,
+				5BB1F5DC142B897200CC57C4 /* JSONKit.h in Headers */,
+				5BB1F5D4142B897200CC57C4 /* VDLoginPopUp.h in Headers */,
+				5BB1F5D6142B897200CC57C4 /* VDPopUp.h in Headers */,
+				5BB1F5D8142B897200CC57C4 /* VDRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5B0CEA2E142B876E002B6102 /* Viadeo-iOS-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B0CEA53142B876F002B6102 /* Build configuration list for PBXNativeTarget "Viadeo-iOS-SDK" */;
+			buildPhases = (
+				5B0CEA2B142B876E002B6102 /* Sources */,
+				5B0CEA2C142B876E002B6102 /* Frameworks */,
+				5B0CEA2D142B876E002B6102 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Viadeo-iOS-SDK";
+			productName = "Viadeo-iOS-SDK";
+			productReference = 5B0CEA2F142B876E002B6102 /* libViadeo-iOS-SDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5B0CEA3E142B876E002B6102 /* Viadeo-iOS-SDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B0CEA56142B876F002B6102 /* Build configuration list for PBXNativeTarget "Viadeo-iOS-SDKTests" */;
+			buildPhases = (
+				5B0CEA3A142B876E002B6102 /* Sources */,
+				5B0CEA3B142B876E002B6102 /* Frameworks */,
+				5B0CEA3C142B876E002B6102 /* Resources */,
+				5B0CEA3D142B876E002B6102 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B0CEA46142B876E002B6102 /* PBXTargetDependency */,
+			);
+			name = "Viadeo-iOS-SDKTests";
+			productName = "Viadeo-iOS-SDKTests";
+			productReference = 5B0CEA3F142B876E002B6102 /* Viadeo-iOS-SDKTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B0CEA26142B876E002B6102 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 5B0CEA29142B876E002B6102 /* Build configuration list for PBXProject "Viadeo-iOS-SDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B0CEA24142B876E002B6102;
+			productRefGroup = 5B0CEA30142B876E002B6102 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B0CEA2E142B876E002B6102 /* Viadeo-iOS-SDK */,
+				5B0CEA3E142B876E002B6102 /* Viadeo-iOS-SDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B0CEA3C142B876E002B6102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0CEA4D142B876F002B6102 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B0CEA3D142B876E002B6102 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B0CEA2B142B876E002B6102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB1F5D5142B897200CC57C4 /* VDLoginPopUp.m in Sources */,
+				5BB1F5D7142B897200CC57C4 /* VDPopUp.m in Sources */,
+				5BB1F5D9142B897200CC57C4 /* VDRequest.m in Sources */,
+				5BB1F5DB142B897200CC57C4 /* Viadeo.m in Sources */,
+				5BB1F5DD142B897200CC57C4 /* JSONKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0CEA3A142B876E002B6102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0CEA50142B876F002B6102 /* Viadeo_iOS_SDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B0CEA46142B876E002B6102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B0CEA2E142B876E002B6102 /* Viadeo-iOS-SDK */;
+			targetProxy = 5B0CEA45142B876E002B6102 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B0CEA4B142B876F002B6102 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B0CEA4C142B876F002B6102 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B0CEA51142B876F002B6102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B0CEA52142B876F002B6102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B0CEA54142B876F002B6102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DSTROOT = /tmp/Viadeo_iOS_SDK.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Viadeo-iOS-SDK/Viadeo-iOS-SDK-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5B0CEA55142B876F002B6102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DSTROOT = /tmp/Viadeo_iOS_SDK.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Viadeo-iOS-SDK/Viadeo-iOS-SDK-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5B0CEA57142B876F002B6102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Viadeo-iOS-SDK/Viadeo-iOS-SDK-Prefix.pch";
+				INFOPLIST_FILE = "Viadeo-iOS-SDKTests/Viadeo-iOS-SDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5B0CEA58142B876F002B6102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Viadeo-iOS-SDK/Viadeo-iOS-SDK-Prefix.pch";
+				INFOPLIST_FILE = "Viadeo-iOS-SDKTests/Viadeo-iOS-SDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B0CEA29142B876E002B6102 /* Build configuration list for PBXProject "Viadeo-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0CEA51142B876F002B6102 /* Debug */,
+				5B0CEA52142B876F002B6102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B0CEA53142B876F002B6102 /* Build configuration list for PBXNativeTarget "Viadeo-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0CEA54142B876F002B6102 /* Debug */,
+				5B0CEA55142B876F002B6102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B0CEA56142B876F002B6102 /* Build configuration list for PBXNativeTarget "Viadeo-iOS-SDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0CEA57142B876F002B6102 /* Debug */,
+				5B0CEA58142B876F002B6102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B0CEA26142B876E002B6102 /* Project object */;
+}

@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  MySuperApplication
+
+  Created by Viadeo on 01/09/11.
+  Copyright 2011 Viadeo. All rights reserved.
+*/
+
+VD_POPUP_TITLE = "Connect to Viadeo";
+
+VD_ALERT_VIEW_LOGIN_ERROR_TITLE = "Authentication error";
+VD_ALERT_VIEW_MY_VIADEO_PROFILE_TITLE = "My profile";
+VD_ALERT_VIEW_MY_VIADEO_PROFILE_ERROR_TITLE = "Error loading profile";
+VD_ALERT_VIEW_LOGGED_IN = "You're connected!";
+VD_ALERT_VIEW_LOGGED_OUT = "You're disconnected";
+VD_ALERT_VIEW_CLOSE = "Close";
+
+VD_WINDOW_LOGIN_BUTTON = "Connect";
+VD_WINDOW_LOGOUT_BUTTON = "Disconnect";
+VD_WINDOW_GET_MY_PROFILE_BUTTON = "My profile";
