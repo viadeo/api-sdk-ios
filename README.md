@@ -29,11 +29,17 @@ Then modify the AppDelegate implementation file.
 
 * Synthesize and release the viadeo property:
 
-** Synthesize: @synthesize viadeo;
+- Synthesize:
 
-** Deallocate:
+```java
+@synthesize viadeo;
+```
 
+- Deallocate:
+
+```java
 - (void)dealloc { 	self.viadeo = nil; 	[_window release]; 	[super dealloc]; }
+```
 
 * Fill VD_CLIENT_ID and VD_CLIENT_SECRET constants with your client ID and client secret given by your Viadeo Developer Account.
 
