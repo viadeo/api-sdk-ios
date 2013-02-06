@@ -44,7 +44,12 @@ Deallocate:
 
 ```java
 - (void)dealloc {
-	self.viadeo = nil; 	[_window release]; 	[super dealloc]; }
+	self.viadeo = nil; 	
+	
+	[_window release]; 	
+	
+	[super dealloc];
+ }
 ```
 
 * Fill VD_CLIENT_ID and VD_CLIENT_SECRET constants with your client ID and client secret given by your Viadeo Developer Account.
@@ -86,7 +91,7 @@ if (![viadeo isLoggedIn]) {
 
 ## Step 4: Calling the Viadeo API
 
-* The iOS SDK provides a straightforward set of methods to access the Viadeo API.
+The iOS SDK provides a straightforward set of methods to access the Viadeo API.
 
 * GET
 
@@ -116,7 +121,8 @@ if (![viadeo isLoggedIn]) {
 // POST me/tags
  NSMutableDictionary *_tagParams = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"friends", @"tag", @"...", @"contact_id", nil]; [viadeo requestWithHttpMethod:VD_HTTP_METHOD_POST andGraphPath:@"me/tags" andParams:_tagParams andDelegate:self];
 
- // POST me/career  NSMutableDictionar *_careerParams = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Nintendo", @"company", @"Level Designer", @"position", [NSNumber numberWithInt:2004], @"from", [NSNumber numberWithInt:2005], @"to", @"High Tech", @"company_industry", nil];  [viadeo requestWithHttpMethod:VD_HTTP_METHOD_POST andGraphPath:@"me/career" andParams:_careerParams andDelegate:self];
+// POST me/career
+NSMutableDictionary *_careerParams = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Nintendo", @"company", @"Level Designer", @"position", [NSNumber numberWithInt:2004], @"from", [NSNumber numberWithInt:2005], @"to", @"High Tech", @"company_industry", nil];  [viadeo requestWithHttpMethod:VD_HTTP_METHOD_POST andGraphPath:@"me/career" andParams:_careerParams andDelegate:self];
 ```
 
 * PUT
