@@ -51,7 +51,11 @@ Deallocate:
 * Logging in Viadeo
 
 ```java
-if (!viadeo) {     viadeo = [[Viadeo alloc] initWithClientID:VD_CLIENT_ID ClientSecret:VD_CLIENT_SECRET Delegate:self]; }  if (![viadeo isLoggedIn]) {     [viadeo authorize]; }
+if (!viadeo) {
+	viadeo = [[Viadeo alloc] initWithClientID:VD_CLIENT_ID ClientSecret:VD_CLIENT_SECRET Delegate:self]; }
+
+if (![viadeo isLoggedIn]) {
+	[viadeo authorize]; }
 ```
 
 * Implementing the Viadeo Log In Delegate methods.
@@ -62,7 +66,8 @@ if (!viadeo) {     viadeo = [[Viadeo alloc] initWithClientID:VD_CLIENT_ID Cl
 }
 
 - (void)viadeoDidNotLogin:(BOOL)_cancelled withError:(NSError *)_error {
-    // An error occured while logging in }
+    // An error occured while logging in
+}
 ```
 
 
