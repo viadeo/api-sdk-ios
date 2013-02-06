@@ -34,13 +34,16 @@ Then modify the AppDelegate implementation file.
 Synthesize:
 
 ```java
-@synthesize viadeo;
+	@synthesize viadeo;
 ```
 
 Deallocate:
 
 ```java
-- (void)dealloc { 	self.viadeo = nil; 	[_window release]; 	[super dealloc]; }
+- (void)dealloc {
+	self.viadeo = nil;
+	 [_window release]
+	 ; [super dealloc]; }
 ```
 
 * Fill VD_CLIENT_ID and VD_CLIENT_SECRET constants with your client ID and client secret given by your Viadeo Developer Account.
@@ -52,21 +55,23 @@ Deallocate:
 
 ```java
 if (!viadeo) {
-	viadeo = [[Viadeo alloc] initWithClientID:VD_CLIENT_ID ClientSecret:VD_CLIENT_SECRET Delegate:self]; }
+	viadeo = [[Viadeo alloc] initWithClientID:VD_CLIENT_ID ClientSecret:VD_CLIENT_SECRET Delegate:self];
+ }
 
 if (![viadeo isLoggedIn]) {
-	[viadeo authorize]; }
+	[viadeo authorize];
+ }
 ```
 
 * Implementing the Viadeo Log In Delegate methods.
 
 ```java
 - (void)viadeoDidLogin {
-    // You are connected to Viadeo
+	// You are connected to Viadeo
 }
 
 - (void)viadeoDidNotLogin:(BOOL)_cancelled withError:(NSError *)_error {
-    // An error occured while logging in
+  // An error occured while logging in
 }
 ```
 
@@ -74,7 +79,7 @@ if (![viadeo isLoggedIn]) {
 ## Step 3: Log Out
 
 ```java
-[viadeo logOut];
+	[viadeo logOut];
 ```
 
 
@@ -85,36 +90,46 @@ if (![viadeo isLoggedIn]) {
 * GET
 
 ```java
-// GET me [viadeo requestWithHttpMethod:VD_HTTP_METHOD_GET andGraphPath:@"me" andDelegate:self];
+// GET me
+ [viadeo requestWithHttpMethod:VD_HTTP_METHOD_GET andGraphPath:@"me" andDelegate:self];
 
-// GET me/tags [viadeo requestWithHttpMethod:VD_HTTP_METHOD_GET andGraphPath:@"me/tags" andDelegate:self];
+// GET me/tags
+ [viadeo requestWithHttpMethod:VD_HTTP_METHOD_GET andGraphPath:@"me/tags" andDelegate:self];
 
-// GET me in english language  NSMutableDictionary *_query = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"en", @"language", nil]; [viadeo requestWithHttpMethod:VD_HTTP_METHOD_GET andGraphPath:@"me" andQuery:_query andDelegate:self];
+// GET me in english language
+ NSMutableDictionary *_query = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"en", @"language", nil]; [viadeo requestWithHttpMethod:VD_HTTP_METHOD_GET andGraphPath:@"me" andQuery:_query andDelegate:self];
 
-// GET me/contacts _query = [NSMutableDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithInt:50], @"limit", nil]; [viadeo requestWithHttpMethod:VD_HTTP_METHOD_GET andGraphPath:@"me/contacts" andQuery:_query andDelegate:self];
+// GET me/contacts
+ _query = [NSMutableDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithInt:50], @"limit", nil]; [viadeo requestWithHttpMethod:VD_HTTP_METHOD_GET andGraphPath:@"me/contacts" andQuery:_query andDelegate:self];
 
-// GET me/visits => only for Level 3 users _query = [NSMutableDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithInt:3], @"limit", nil]; [viadeo requestWithHttpMethod:VD_HTTP_METHOD_GET andGraphPath:@"me/visits" andQuery:_query andDelegate:self];
+// GET me/visits => only for Level 3 users
+ _query = [NSMutableDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithInt:3], @"limit", nil]; [viadeo requestWithHttpMethod:VD_HTTP_METHOD_GET andGraphPath:@"me/visits" andQuery:_query andDelegate:self];
 ```
 
 * POST
 
 ```java
-// POST status NSMutableDictionary *_params = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"hello from iOS Viadeo SDK", @"message", nil];  [viadeo requestWithHttpMethod:VD_HTTP_METHOD_POST andGraphPath:@"status" andParams:_params andDelegate:self];
+// POST status
+ NSMutableDictionary *_params = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"hello from iOS Viadeo SDK", @"message", nil];  [viadeo requestWithHttpMethod:VD_HTTP_METHOD_POST andGraphPath:@"status" andParams:_params andDelegate:self];
 
-// POST me/tags NSMutableDictionary *_tagParams = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"friends", @"tag", @"...", @"contact_id", nil]; [viadeo requestWithHttpMethod:VD_HTTP_METHOD_POST andGraphPath:@"me/tags" andParams:_tagParams andDelegate:self];
- // POST me/career NSMutableDictionary *_careerParams = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Nintendo", @"company", @"Level Designer", @"position", [NSNumber numberWithInt:2004], @"from", [NSNumber numberWithInt:2005], @"to", @"High Tech", @"company_industry", nil];  [viadeo requestWithHttpMethod:VD_HTTP_METHOD_POST andGraphPath:@"me/career" andParams:_careerParams andDelegate:self];
+// POST me/tags
+ NSMutableDictionary *_tagParams = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"friends", @"tag", @"...", @"contact_id", nil]; [viadeo requestWithHttpMethod:VD_HTTP_METHOD_POST andGraphPath:@"me/tags" andParams:_tagParams andDelegate:self];
+
+ // POST me/career  NSMutableDictionar *_careerParams = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Nintendo", @"company", @"Level Designer", @"position", [NSNumber numberWithInt:2004], @"from", [NSNumber numberWithInt:2005], @"to", @"High Tech", @"company_industry", nil];  [viadeo requestWithHttpMethod:VD_HTTP_METHOD_POST andGraphPath:@"me/career" andParams:_careerParams andDelegate:self];
 ```
 
 * PUT
 
 ```java
-// PUT me NSMutableDictionary *_params = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Newton Corp Co-Founder, Freelancer, Viadeo iOS Lead Developer", @"headline", @"iPhone, iPad", @"introduction", @"Football, Cinema", @"interests", nil];  [viadeo requestWithHttpMethod:VD_HTTP_METHOD_PUT andGraphPath:@"me" andParams:_params andDelegate:self];
+// PUT me
+ NSMutableDictionary *_params = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Newton Corp Co-Founder, Freelancer, Viadeo iOS Lead Developer", @"headline", @"iPhone, iPad", @"introduction", @"Football, Cinema", @"interests", nil];  [viadeo requestWithHttpMethod:VD_HTTP_METHOD_PUT andGraphPath:@"me" andParams:_params andDelegate:self];
 ```
 
 * DELETE
 
 ```java
-// DELETE me/tags NSMutableDictionary *_tagParams = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"friends", @"tag", @"...", @"contact_id", nil]; [viadeo requestWithHttpMethod:VD_HTTP_METHOD_DELETE andGraphPath:@"me/tags" andParams:_tagParams andDelegate:self];
+// DELETE me/tags
+ NSMutableDictionary *_tagParams = [NSMutableDictionary dictionaryWithObjectsAndKeys:@"friends", @"tag", @"...", @"contact_id", nil]; [viadeo requestWithHttpMethod:VD_HTTP_METHOD_DELETE andGraphPath:@"me/tags" andParams:_tagParams andDelegate:self];
 ```
 
 
@@ -122,5 +137,9 @@ if (![viadeo isLoggedIn]) {
 
 These methods are called asynchronously; the viadeoRequest:didLoad: method for successful requests and viadeoRequest:didFailWithError: method for errors must be implemented.
 
-- (void)viadeoRequest:(VDRequest *)_request didLoad:(NSDictionary *)_dictionary { }
-- (void)viadeoRequest:(VDRequest *)_request didFailWithError:(NSError *)_error { }
+```java
+- (void)viadeoRequest:(VDRequest *)_request didLoad:(NSDictionary *)_dictionary {
+ }
+- (void)viadeoRequest:(VDRequest *)_request didFailWithError:(NSError *)_error {
+ }
+```
