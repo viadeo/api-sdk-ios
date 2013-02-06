@@ -12,8 +12,7 @@ You will need to download and install XCode and the latest version of Viadeo iOS
 After including the SDK source files into the app project, an #import declaration must be added to a header file to ensure that the app can reference the SDK types in the app source files: #import "VDConnect.h"
 With this step complete, the Viadeo iOS SDK can be built and used within the app XCode project.
 
-Implementing Viadeo iOS SDK
-General
+## Step 2: Implementing Viadeo iOS SDK
  First modify the AppDelegate Class.
 
 *  Set the AppDelegate class to handle the Viadeo delegate callbacks by adding ViadeoConnectDelegate and VDRequestDelegate to the list of delegates. For example for the MySuperApplication:
@@ -21,11 +20,15 @@ General
 
 * Set up the AppDelegate header file by creating instance variable:
 
-Viadeo *viadeo;
+```java
+	Viadeo *viadeo;
+```
 
-* Step 3. Add a property for an instance of the Viadeo class:
+* Add a property for an instance of the Viadeo class:
 
-@property (nonatomic, retain) Viadeo *viadeo;
+```java
+	@property (nonatomic, retain) Viadeo *viadeo;
+```
 
 Then modify the AppDelegate implementation file.
 
@@ -41,9 +44,7 @@ Deallocate:
 
 ```java
 - (void)dealloc {
-	self.viadeo = nil;
-	 [_window release]
-	 ; [super dealloc]; }
+	self.viadeo = nil; 	[_window release]; 	[super dealloc]; }
 ```
 
 * Fill VD_CLIENT_ID and VD_CLIENT_SECRET constants with your client ID and client secret given by your Viadeo Developer Account.
