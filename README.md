@@ -55,7 +55,7 @@ Deallocate:
 * Fill VD_CLIENT_ID and VD_CLIENT_SECRET constants with your client ID and client secret given by your Viadeo Developer Account.
 
 
-## Step 2: Log In
+## Step 3: Log In
 
 * Logging in Viadeo
 
@@ -82,14 +82,14 @@ if (![viadeo isLoggedIn]) {
 ```
 
 
-## Step 3: Log Out
+## Step 4: Log Out
 
 ```java
 	[viadeo logOut];
 ```
 
 
-## Step 4: Calling the Viadeo API
+## Step 5: Calling the Viadeo API
 
 The iOS SDK provides a straightforward set of methods to access the Viadeo API.
 
@@ -148,7 +148,7 @@ NSMutableDictionary *_careerParams = [NSMutableDictionary dictionaryWithObjectsA
 ```
 
 
-## Step 5: Implementing the Viadeo API Delegate methods.
+## Step 6: Implementing the Viadeo API Delegate methods.
 
 These methods are called asynchronously; the viadeoRequest:didLoad: method for successful requests and viadeoRequest:didFailWithError: method for errors must be implemented.
 
