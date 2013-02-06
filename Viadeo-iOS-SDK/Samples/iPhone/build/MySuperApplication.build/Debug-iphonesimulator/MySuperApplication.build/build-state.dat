@@ -1,445 +1,0 @@
-TMySuperApplication
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/Info.plist MySuperApplication/MySuperApplication-Info.plist
-cProcessPCH /var/folders/sc/14l9nx6n3dq41s1gdx1nc9bw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MySuperApplication-Prefix-cqoderyfsjjvltaowzmhfytunsij/MySuperApplication-Prefix.pch.pth MySuperApplication/MySuperApplication-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/main.o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/MySuperApplicationAppDelegate.o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperApplicationAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/MySuperAppViewController.o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperAppViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDLoginPopUp.o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDLoginPopUp.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDPopUp.o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDPopUp.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDRequest.o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDRequest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/Viadeo.o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/Viadeo.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/JSONKit.o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Parser/JSONKit/JSONKit.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/MySuperApplication normal i386
-cGenerateDSYMFile /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app.dSYM /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/MySuperApplication
-cCopyStringsFile /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/en.lproj/InfoPlist.strings MySuperApplication/en.lproj/InfoPlist.strings
-cCompileXIB /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/en.lproj/MainWindow.xib
-cCopyStringsFile /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/en.lproj/Localizable.strings MySuperApplication/en.lproj/Localizable.strings
-cCopyStringsFile /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/fr.lproj/Localizable.strings MySuperApplication/fr.lproj/Localizable.strings
-cCompileXIB /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperAppViewController.xib
-cCpResource MySuperApplication/../../../src/Viadeo-iOS-SDK/VDPopUp.bundle build/Debug-iphonesimulator/MySuperApplication.app/VDPopUp.bundle
-cTouch /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
-c00000000504916AD0000000000000110
-t1346967213
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c0000000050640DBC0000000000228FD0
-t1348734396
-s2265040
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c0000000050640DC000000000003DCEF0
-t1348734400
-s4050672
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c0000000050640DC70000000000AB3D60
-t1348734407
-s11222368
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDLoginPopUp.m
-c000000004FFED98A0000000000001B54
-t1342101898
-s6996
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDPopUp.m
-c000000004FFED98A0000000000003BD0
-t1342101898
-s15312
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDRequest.m
-c00000000503F310D0000000000003C7C
-t1346318605
-s15484
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/Viadeo.m
-c000000004FFED98A00000000000035E4
-t1342101898
-s13796
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Parser/JSONKit/JSONKit.m
-c000000004FFE8B86000000000002B471
-t1342081926
-s177265
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/VDPopUp.bundle
-c000000004FFED98A0000000000000088
-t1342101898
-s136
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperAppViewController.m
-c000000004FFED9890000000000001929
-t1342101897
-s6441
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperAppViewController.xib
-c000000004FFED9890000000000005C25
-t1342101897
-s23589
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperApplication-Prefix.pch
-c000000004FFED9890000000000000156
-t1342101897
-s342
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperApplicationAppDelegate.m
-c000000004FFED9890000000000000B29
-t1342101897
-s2857
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/en.lproj/InfoPlist.strings
-c000000004FFED989000000000000002D
-t1342101897
-s45
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/en.lproj/Localizable.strings
-c000000004FFED989000000000000025E
-t1342101897
-s606
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/en.lproj/MainWindow.xib
-c000000004FFED9890000000000001C34
-t1342101897
-s7220
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/fr.lproj/Localizable.strings
-c000000004FFED9890000000000000296
-t1342101897
-s662
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/main.m
-c000000004FFED989000000000000015E
-t1342101897
-s350
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app
-t2
-s0
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app.dSYM
-t2
-s0
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/Info.plist
-t2
-s0
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/MySuperAppViewController.nib
-t2
-s0
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/MySuperApplication
-t2
-s0
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/PkgInfo
-t2
-s0
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/VDPopUp.bundle
-t2
-s0
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/en.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/en.lproj/Localizable.strings
-t2
-s0
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/en.lproj/MainWindow.nib
-t2
-s0
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/fr.lproj/Localizable.strings
-t2
-s0
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/JSONKit.o
-t2
-s0
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/MySuperAppViewController.o
-t2
-s0
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/MySuperApplication.LinkFileList
-c00000000508A439F000000000000056A
-t1351238559
-s1386
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/MySuperApplicationAppDelegate.o
-t2
-s0
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDLoginPopUp.o
-t2
-s0
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDPopUp.o
-t2
-s0
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDRequest.o
-t2
-s0
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/Viadeo.o
-t2
-s0
-
-N/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/main.o
-t2
-s0
-
-N/var/folders/sc/14l9nx6n3dq41s1gdx1nc9bw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MySuperApplication-Prefix-cqoderyfsjjvltaowzmhfytunsij/MySuperApplication-Prefix.pch.pth
-t2
-s0
-
-NMySuperApplication/MySuperApplication-Info.plist
-c000000004FFED989000000000000048D
-t1342101897
-s1165
-
-CBuild AST from /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDLoginPopUp.m
-r0
-
-CBuild AST from /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDPopUp.m
-r0
-
-CBuild AST from /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDRequest.m
-r0
-
-CBuild AST from /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/Viadeo.m
-r0
-
-CBuild AST from /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Parser/JSONKit/JSONKit.m
-r0
-
-CBuild AST from /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperAppViewController.m
-r0
-
-CBuild AST from /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperApplicationAppDelegate.m
-r0
-
-CBuild AST from /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesae7e5c1f7b3ab641^de00871f7b3ab641^---0#1#0#--18"Check dependencies36"38899B41-6D17-49E5-8D1D-695AE05C2CB9-
-
-CCompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/JSONKit.o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Parser/JSONKit/JSONKit.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372931361.418630
-e372931361.696312
-r1
-xCompileC
-xbuild/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/JSONKit.o
-x/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Parser/JSONKit/JSONKit.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Compile /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Parser/JSONKit/JSONKit.m984e6b217b3ab641^2443b2217b3ab641^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Parser/JSONKit/JSONKit.m0000000000000000^3853"CompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/JSONKit.o MySuperApplication/../../../src/Viadeo-iOS-SDK/Parser/JSONKit/JSONKit.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-generated-files.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-own-target-headers.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-all-target-headers.hmap -iquote /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-project-headers.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/include -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/DerivedSources/i386 -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/DerivedSources -F/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator -include /var/folders/sc/14l9nx6n3dq41s1gdx1nc9bw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MySuperApplication-Prefix-cqoderyfsjjvltaowzmhfytunsij/MySuperApplication-Prefix.pch -MMD -MT dependencies -MF /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/JSONKit.d --serialize-diagnostics /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/JSONKit.dia -c /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Parser/JSONKit/JSONKit.m -o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/JSONKit.o36"C8D24594-B7F7-44F3-AF0E-23A93BB87CA6-
-
-CCompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/MySuperAppViewController.o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperAppViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372931361.161861
-e372931361.406315
-r1
-xCompileC
-xbuild/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/MySuperAppViewController.o
-x/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperAppViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperAppViewController.md68b29217b3ab641^c40889217b3ab641^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperAppViewController.m0000000000000000^3869"CompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/MySuperAppViewController.o MySuperApplication/MySuperAppViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-generated-files.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-own-target-headers.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-all-target-headers.hmap -iquote /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-project-headers.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/include -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/DerivedSources/i386 -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/DerivedSources -F/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator -include /var/folders/sc/14l9nx6n3dq41s1gdx1nc9bw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MySuperApplication-Prefix-cqoderyfsjjvltaowzmhfytunsij/MySuperApplication-Prefix.pch -MMD -MT dependencies -MF /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/MySuperAppViewController.d --serialize-diagnostics /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/MySuperAppViewController.dia -c /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperAppViewController.m -o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/MySuperAppViewController.o36"B1CB5354-C36C-46D0-AEE0-73E11E1CF268-
-
-CCompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/MySuperApplicationAppDelegate.o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperApplicationAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372931361.159348
-e372931361.406549
-r1
-xCompileC
-xbuild/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/MySuperApplicationAppDelegate.o
-x/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperApplicationAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperApplicationAppDelegate.m808029217b3ab641^800c89217b3ab641^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperApplicationAppDelegate.m0000000000000000^3899"CompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/MySuperApplicationAppDelegate.o MySuperApplication/MySuperApplicationAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-generated-files.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-own-target-headers.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-all-target-headers.hmap -iquote /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-project-headers.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/include -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/DerivedSources/i386 -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/DerivedSources -F/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator -include /var/folders/sc/14l9nx6n3dq41s1gdx1nc9bw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MySuperApplication-Prefix-cqoderyfsjjvltaowzmhfytunsij/MySuperApplication-Prefix.pch -MMD -MT dependencies -MF /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/MySuperApplicationAppDelegate.d --serialize-diagnostics /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/MySuperApplicationAppDelegate.dia -c /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperApplicationAppDelegate.m -o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/MySuperApplicationAppDelegate.o36"4538C806-7F73-41B9-9F25-81F0176ED2AF-
-
-CCompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDLoginPopUp.o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDLoginPopUp.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372931361.162394
-e372931361.417165
-r1
-xCompileC
-xbuild/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDLoginPopUp.o
-x/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDLoginPopUp.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compile /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDLoginPopUp.m3c122b217b3ab641^d41089217b3ab641^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDLoginPopUp.m0000000000000000^3863"CompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDLoginPopUp.o MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDLoginPopUp.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-generated-files.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-own-target-headers.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-all-target-headers.hmap -iquote /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-project-headers.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/include -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/DerivedSources/i386 -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/DerivedSources -F/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator -include /var/folders/sc/14l9nx6n3dq41s1gdx1nc9bw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MySuperApplication-Prefix-cqoderyfsjjvltaowzmhfytunsij/MySuperApplication-Prefix.pch -MMD -MT dependencies -MF /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDLoginPopUp.d --serialize-diagnostics /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDLoginPopUp.dia -c /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDLoginPopUp.m -o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDLoginPopUp.o36"88DA4993-5400-4BC4-9F3D-AD795B762181-
-
-CCompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDPopUp.o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDPopUp.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372931361.388626
-e372931361.510174
-r1
-xCompileC
-xbuild/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDPopUp.o
-x/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDPopUp.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDPopUp.m5da563217b3ab641^1e1789217b3ab641^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDPopUp.m0000000000000000^3833"CompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDPopUp.o MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDPopUp.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-generated-files.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-own-target-headers.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-all-target-headers.hmap -iquote /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-project-headers.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/include -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/DerivedSources/i386 -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/DerivedSources -F/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator -include /var/folders/sc/14l9nx6n3dq41s1gdx1nc9bw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MySuperApplication-Prefix-cqoderyfsjjvltaowzmhfytunsij/MySuperApplication-Prefix.pch -MMD -MT dependencies -MF /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDPopUp.d --serialize-diagnostics /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDPopUp.dia -c /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDPopUp.m -o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDPopUp.o36"F3EC5C9A-FEDC-4724-BBE8-8D412D023FBB-
-
-CCompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDRequest.o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDRequest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372931361.407603
-e372931361.499621
-r1
-xCompileC
-xbuild/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDRequest.o
-x/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDRequest.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compile /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDRequest.m4e7d68217b3ab641^271589217b3ab641^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDRequest.m0000000000000000^3845"CompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDRequest.o MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDRequest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-generated-files.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-own-target-headers.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-all-target-headers.hmap -iquote /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-project-headers.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/include -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/DerivedSources/i386 -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/DerivedSources -F/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator -include /var/folders/sc/14l9nx6n3dq41s1gdx1nc9bw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MySuperApplication-Prefix-cqoderyfsjjvltaowzmhfytunsij/MySuperApplication-Prefix.pch -MMD -MT dependencies -MF /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDRequest.d --serialize-diagnostics /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDRequest.dia -c /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/VDRequest.m -o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/VDRequest.o36"0DD213E8-204E-49D1-BE9E-359B1FAC8162-
-
-CCompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/Viadeo.o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/Viadeo.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372931361.407642
-e372931361.497924
-r1
-xCompileC
-xbuild/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/Viadeo.o
-x/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/Viadeo.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/Viadeo.m257768217b3ab641^831389217b3ab641^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/Viadeo.m0000000000000000^3827"CompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/Viadeo.o MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/Viadeo.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-generated-files.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-own-target-headers.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-all-target-headers.hmap -iquote /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-project-headers.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/include -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/DerivedSources/i386 -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/DerivedSources -F/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator -include /var/folders/sc/14l9nx6n3dq41s1gdx1nc9bw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MySuperApplication-Prefix-cqoderyfsjjvltaowzmhfytunsij/MySuperApplication-Prefix.pch -MMD -MT dependencies -MF /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/Viadeo.d --serialize-diagnostics /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/Viadeo.dia -c /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/Main/Viadeo.m -o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/Viadeo.o36"A6D8F7BC-9BBB-4EE6-A5FF-EDD2F8E03731-
-
-CCompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/main.o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372931361.159328
-e372931361.387360
-r1
-xCompileC
-xbuild/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/main.o
-x/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/main.mfb7329217b3ab641^c42666217b3ab641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/main.m0000000000000000^3749"CompileC build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/main.o MySuperApplication/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-generated-files.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-own-target-headers.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-all-target-headers.hmap -iquote /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-project-headers.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/include -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/DerivedSources/i386 -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/DerivedSources -F/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator -include /var/folders/sc/14l9nx6n3dq41s1gdx1nc9bw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MySuperApplication-Prefix-cqoderyfsjjvltaowzmhfytunsij/MySuperApplication-Prefix.pch -MMD -MT dependencies -MF /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/main.dia -c /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/main.m -o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/main.o36"C16BB918-8144-4D29-9847-0C175F5477E6-
-
-CCompileXIB /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperAppViewController.xib
-s372931362.699824
-e372931363.820452
-r1
-xCompileXIB
-x/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperAppViewController.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compiling /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperAppViewController.xibbc3eb3227b3ab641^5e13d2237b3ab641^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperAppViewController.xib0000000000000000^1013"CompileXIB MySuperApplication/MySuperAppViewController.xib    cd /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/MySuperAppViewController.nib /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperAppViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"D93CC0A2-543F-4CA5-B8D2-D8E012AD443C-
-
-CCompileXIB /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/en.lproj/MainWindow.xib
-s372931362.668908
-e372931363.766362
-r1
-xCompileXIB
-x/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/en.lproj/MainWindow.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compiling /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/en.lproj/MainWindow.xib9353ab227b3ab641^1748c4237b3ab641^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/en.lproj/MainWindow.xib0000000000000000^998"CompileXIB MySuperApplication/en.lproj/MainWindow.xib    cd /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/en.lproj/MainWindow.nib /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/en.lproj/MainWindow.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"B91CFFFA-2CC5-4B86-806C-DC65003DD807-
-
-CCopyStringsFile /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/en.lproj/InfoPlist.strings MySuperApplication/en.lproj/InfoPlist.strings
-s372931362.668881
-e372931362.698632
-r1
-xCopyStringsFile
-x/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/en.lproj/InfoPlist.strings
-xMySuperApplication/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy MySuperApplication/en.lproj/InfoPlist.stringsdb52ab227b3ab641^eab4b2227b3ab641^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/en.lproj/InfoPlist.strings0000000000000000^661"CopyStringsFile build/Debug-iphonesimulator/MySuperApplication.app/en.lproj/InfoPlist.strings MySuperApplication/en.lproj/InfoPlist.strings    cd /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/en.lproj -- MySuperApplication/en.lproj/InfoPlist.strings36"8C38695D-7497-4184-AB96-CBE30ED4DBCA-
-
-CCopyStringsFile /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/en.lproj/Localizable.strings MySuperApplication/en.lproj/Localizable.strings
-s372931362.668916
-e372931362.698717
-r1
-xCopyStringsFile
-x/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/en.lproj/Localizable.strings
-xMySuperApplication/en.lproj/Localizable.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy MySuperApplication/en.lproj/Localizable.strings5053ab227b3ab641^c1e4b2227b3ab641^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/en.lproj/Localizable.strings0000000000000000^667"CopyStringsFile build/Debug-iphonesimulator/MySuperApplication.app/en.lproj/Localizable.strings MySuperApplication/en.lproj/Localizable.strings    cd /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/en.lproj -- MySuperApplication/en.lproj/Localizable.strings36"A7DB29DA-F64C-42D5-A5C9-628208C66091-
-
-CCopyStringsFile /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/fr.lproj/Localizable.strings MySuperApplication/fr.lproj/Localizable.strings
-s372931362.669157
-e372931362.699036
-r1
-xCopyStringsFile
-x/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/fr.lproj/Localizable.strings
-xMySuperApplication/fr.lproj/Localizable.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy MySuperApplication/fr.lproj/Localizable.stringsb45bab227b3ab641^b5fab2227b3ab641^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/fr.lproj/Localizable.strings0000000000000000^667"CopyStringsFile build/Debug-iphonesimulator/MySuperApplication.app/fr.lproj/Localizable.strings MySuperApplication/fr.lproj/Localizable.strings    cd /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/fr.lproj -- MySuperApplication/fr.lproj/Localizable.strings36"19EBF3B9-F239-4AA3-8677-D95B14812227-
-
-CCpResource MySuperApplication/../../../src/Viadeo-iOS-SDK/VDPopUp.bundle build/Debug-iphonesimulator/MySuperApplication.app/VDPopUp.bundle
-s372931362.699828
-e372931362.770479
-r1
-xCpResource
-xMySuperApplication/../../../src/Viadeo-iOS-SDK/VDPopUp.bundle
-xbuild/Debug-iphonesimulator/MySuperApplication.app/VDPopUp.bundle
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Debug-iphonesimulator/MySuperApplication.app/VDPopUp.bundle4a41b3227b3ab641^f23fc5227b3ab641^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/VDPopUp.bundle000000000080d041^746"CpResource MySuperApplication/../../../src/Viadeo-iOS-SDK/VDPopUp.bundle build/Debug-iphonesimulator/MySuperApplication.app/VDPopUp.bundle    cd /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/../../../src/Viadeo-iOS-SDK/VDPopUp.bundle /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app36"1FD189C7-BD42-4973-95C4-D96C16B0205E-
-
-CGenerateDSYMFile /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app.dSYM /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/MySuperApplication
-s372931362.577515
-e372931362.659935
-r1
-xGenerateDSYMFile
-x/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app.dSYM
-x/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/MySuperApplication
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Generating /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app.dSYM90a094227b3ab641^17f2a8227b3ab641^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app.dSYM000000000080d041^754"GenerateDSYMFile build/Debug-iphonesimulator/MySuperApplication.app.dSYM build/Debug-iphonesimulator/MySuperApplication.app/MySuperApplication    cd /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/MySuperApplication -o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app.dSYM36"51A579E6-76F9-46B3-A91F-A8E9608B91E9-
-
-CLd /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/MySuperApplication normal i386
-s372931361.702983
-e372931362.564825
-r1
-xLd
-x/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/MySuperApplication
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Link /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/MySuperApplicationf20ab4217b3ab641^5d3292227b3ab641^---0#0#0#--1318"Ld build/Debug-iphonesimulator/MySuperApplication.app/MySuperApplication normal i386    cd /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator -F/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator -filelist /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/Objects-normal/i386/MySuperApplication.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=4.3 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/MySuperApplication36"B0DF21C4-D4DC-4631-94A6-ECC13F85F1A0-
-
-CProcessInfoPlistFile /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/Info.plist MySuperApplication/MySuperApplication-Info.plist
-s372931359.539435
-e372931359.550794
-r1
-xProcessInfoPlistFile
-x/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/Info.plist
-xMySuperApplication/MySuperApplication-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Process MySuperApplication/MySuperApplication-Info.plist2a368a1f7b3ab641^0a81901f7b3ab641^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperApplication-Info.plist0000000000000000^790"ProcessInfoPlistFile build/Debug-iphonesimulator/MySuperApplication.app/Info.plist MySuperApplication/MySuperApplication-Info.plist    cd /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MySuperApplication/MySuperApplication-Info.plist -genpkginfo /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app/Info.plist36"B80B8655-5976-4B05-828B-07CA6CFF8777-
-
-CProcessPCH /Users/viaduc357/Library/Developer/Xcode/DerivedData/ViadeoApp-dhdmcytpnsjguwazgkujeyuonkjn/Index/PrecompiledHeaders/MySuperApplication-Prefix-bzxjbvtgpjmedeciikljvejgmbzt_ast/MySuperApplication-Prefix.pch.pth MySuperApplication/MySuperApplication-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/sc/14l9nx6n3dq41s1gdx1nc9bw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MySuperApplication-Prefix-cqoderyfsjjvltaowzmhfytunsij/MySuperApplication-Prefix.pch.pth MySuperApplication/MySuperApplication-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372931359.558247
-e372931361.152518
-r1
-xProcessPCH
-x/var/folders/sc/14l9nx6n3dq41s1gdx1nc9bw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MySuperApplication-Prefix-cqoderyfsjjvltaowzmhfytunsij/MySuperApplication-Prefix.pch.pth
-xMySuperApplication/MySuperApplication-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Precompile MySuperApplication/MySuperApplication-Prefix.pch6a178f1f7b3ab641^726f3e217b3ab641^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperApplication-Prefix.pch0000000000000000^3744"ProcessPCH /var/folders/sc/14l9nx6n3dq41s1gdx1nc9bw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MySuperApplication-Prefix-cqoderyfsjjvltaowzmhfytunsij/MySuperApplication-Prefix.pch.pth MySuperApplication/MySuperApplication-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-generated-files.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-own-target-headers.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-all-target-headers.hmap -iquote /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/MySuperApplication-project-headers.hmap -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/include -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/DerivedSources/i386 -I/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/MySuperApplication.build/Debug-iphonesimulator/MySuperApplication.build/DerivedSources -F/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/sc/14l9nx6n3dq41s1gdx1nc9bw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MySuperApplication-Prefix-cqoderyfsjjvltaowzmhfytunsij/MySuperApplication-Prefix.pch.dia -c /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/MySuperApplication/MySuperApplication-Prefix.pch -o /var/folders/sc/14l9nx6n3dq41s1gdx1nc9bw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MySuperApplication-Prefix-cqoderyfsjjvltaowzmhfytunsij/MySuperApplication-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/sc/14l9nx6n3dq41s1gdx1nc9bw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MySuperApplication-Prefix-cqoderyfsjjvltaowzmhfytunsij/MySuperApplication-Prefix.pch.d36"60CA786A-96FA-4456-B7BC-873DFBCB49C9-
-
-CTouch /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app
-s372931363.829525
-e372931363.846827
-r1
-xTouch
-x/Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Touch /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.appce6fd4237b3ab641^0fd5d8237b3ab641^---0#0#0#--452"Touch build/Debug-iphonesimulator/MySuperApplication.app    cd /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/viaduc357/Documents/iOS/api-sdk/trunk/samples/iPhone/build/Debug-iphonesimulator/MySuperApplication.app36"B43ADA6A-E9A8-4719-9639-1AD25E2F52E6-
-
