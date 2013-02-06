@@ -1,37 +1,50 @@
-Viadeo iOS SDK for iPhone/iPad
+# Viadeo iOS SDK for iPhone/iPad
 
-Installation
+**This is BETA software, you can report bugs using the [support form](http://dev.viadeo.com/technical-support/).**
+
+## Step 1: Installation
 
 You will need to download and install XCode and the latest version of Viadeo iOS SDK:
-	▪	Download & Install XCode
-	▪	Download Viadeo-iOS-SDK
+* Download & Install XCode
+* Download Viadeo-iOS-SDK
 After including the SDK source files into the app project, an #import declaration must be added to a header file to ensure that the app can reference the SDK types in the app source files: #import "VDConnect.h"
 With this step complete, the Viadeo iOS SDK can be built and used within the app XCode project.
 
 Implementing Viadeo iOS SDK
 General
  First modify the AppDelegate Class.
-	▪	Step 1. Set the AppDelegate class to handle the Viadeo delegate callbacks by adding ViadeoConnectDelegate and VDRequestDelegate to the list of delegates. For example for the MySuperApplication:
+
+*  Set the AppDelegate class to handle the Viadeo delegate callbacks by adding ViadeoConnectDelegate and VDRequestDelegate to the list of delegates. For example for the MySuperApplication:
 @interface MySuperApplicationAppDelegate : NSObject <UIApplicationDelegate, ViadeoConnectDelegate, VDRequestDelegate>
-	▪	Step 2. Set up the AppDelegate header file by creating instance variable:
+
+* Set up the AppDelegate header file by creating instance variable:
+
 Viadeo *viadeo;
-	▪	Step 3. Add a property for an instance of the Viadeo class:
+
+* Step 3. Add a property for an instance of the Viadeo class:
+
 @property (nonatomic, retain) Viadeo *viadeo;
 
 Then modify the AppDelegate implementation file.
-	▪	Step 4. Synthesize and release the viadeo property:
+
+* Synthesize and release the viadeo property:
+
 	1.	Synthesize: @synthesize viadeo;
+
 	2.	Deallocate:
+
 - (void)dealloc { self.viadeo = nil; [_window release]; [super dealloc]; }
-	▪	Step 5. Fill VD_CLIENT_ID and VD_CLIENT_SECRET constants with your client ID and client secret given by your Viadeo Developer Account.
+
+* Fill VD_CLIENT_ID and VD_CLIENT_SECRET constants with your client ID and client secret given by your Viadeo Developer Account.
 
 
+## Step 2: Log In
 
-Log In
+* Logging in Viadeo
 
-	▪	Step 1. Logging in Viadeo
 if (!viadeo) {     viadeo = [[Viadeo alloc] initWithClientID:VD_CLIENT_ID ClientSecret:VD_CLIENT_SECRET Delegate:self]; }  if (![viadeo isLoggedIn]) {     [viadeo authorize]; }
-	▪	Step 2. Implementing the Viadeo Log In Delegate methods.
+
+* Implementing the Viadeo Log In Delegate methods.
 
 - (void)viadeoDidLogin {
     // You are connected to Viadeo
@@ -41,19 +54,16 @@ if (!viadeo) {     viadeo = [[Viadeo alloc] initWithClientID:VD_CLIENT_ID Cl
     // An error occured while logging in }
 
 
-
-
-
-Log Out
+## Step 3: Log Out
 
 	▪	Step 1. Logging out.
 [viadeo logOut];
 
 
+## Step 4: Calling the Viadeo API
 
-Calling the Viadeo API
+* The iOS SDK provides a straightforward set of methods to access the Viadeo API.
 
-	▪	Step 1. The iOS SDK provides a straightforward set of methods to access the Viadeo API.
 GET
 // GET me [viadeo requestWithHttpMethod:VD_HTTP_METHOD_GET andGraphPath:@"me" andDelegate:self];
 
@@ -79,6 +89,7 @@ DELETE
 
 These methods are called asynchronously; the viadeoRequest:didLoad: method for successful requests and viadeoRequest:didFailWithError: method for errors must be implemented.
 
-	▪	Step 2. Implementing the Viadeo API Delegate methods.
+## Step 5: Implementing the Viadeo API Delegate methods.
+
 - (void)viadeoRequest:(VDRequest *)_request didLoad:(NSDictionary *)_dictionary { }
 - (void)viadeoRequest:(VDRequest *)_request didFailWithError:(NSError *)_error { }
