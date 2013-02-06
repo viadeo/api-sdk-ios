@@ -2,15 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Source/Viadeo-iOS-SDK.xcodeproj">
+      location = "group:src/Viadeo-iOS-SDK.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Samples/iPhone/MySuperApplication.xcodeproj">
+      location = "group:samples/iPhone/MySuperApplication.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Samples/iPad/MySuperApplication_iPad.xcodeproj">
+      location = "group:samples/iPad/MySuperApplication_iPad.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Samples/APITestApp/APITestApp.xcodeproj">
+      location = "group:samples/APITestApp/APITestApp.xcodeproj">
    </FileRef>
 </Workspace>

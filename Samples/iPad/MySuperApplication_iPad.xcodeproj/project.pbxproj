@@ -185,7 +185,7 @@
 				5BB1F613142B8A8300CC57C4 /* VDPopUp.bundle */,
 			);
 			name = "Viadeo-iOS-SDK";
-			path = "../../../Source/Viadeo-iOS-SDK";
+			path = "../../../src/Viadeo-iOS-SDK";
 			sourceTree = "<group>";
 		};
 		5BB1F604142B8A8300CC57C4 /* Main */ = {
