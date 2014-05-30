@@ -8,6 +8,8 @@
 
 #import "MySuperAppViewController.h"
 
+#error Include your Viadeo client ID and secret below and then remove this line to get rid of this error
+
 #define VD_CLIENT_ID @"CLIENT_ID"
 #define VD_CLIENT_SECRET @"CLIENT_SECRET"
 
@@ -34,6 +36,8 @@
     self.getMyProfileButton = nil;
     self.postButton = nil;
     self.putButton = nil;
+    self.createAccountNavController = nil;
+    self.createAccountWebView = nil;
 }
 
 - (void)viewDidUnload
@@ -56,8 +60,39 @@
     [super dealloc];
 }
 
+#pragma mark - Web View Callbacks
+
+- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
+{
+    NSString *goingToURL = request.URL.absoluteString;
+    if ([goingToURL rangeOfString:@"success"].location != NSNotFound
+        || [goingToURL rangeOfString:@"onboardEnd"].location != NSNotFound) {
+        
+        // end of sign up
+        
+        [self closeCreateAccountController:self];
+    }
+    
+    return YES;
+}
+
 #pragma mark -
 #pragma mark Buttons Callbacks
+
+- (IBAction)selectCreateAccountButton:(id)sender
+{
+    NSURLRequest *urlRequest = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:@"https://m.viadeo.com/en-us/signup"]
+                                                     cachePolicy:NSURLRequestReloadRevalidatingCacheData
+                                                 timeoutInterval:30.0];
+    [self.createAccountWebView loadRequest:urlRequest];
+    
+    [self presentViewController:self.createAccountNavController animated:YES completion:nil];
+}
+
+- (IBAction)closeCreateAccountController:(id)sender {
+    [self.createAccountNavController.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+}
+
 - (IBAction)selectLogInButton
 {
     if (!viadeo) {

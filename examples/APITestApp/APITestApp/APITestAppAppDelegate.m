@@ -8,6 +8,8 @@
 
 #import "APITestAppAppDelegate.h"
 
+#error Include your Viadeo client ID and secret below and then remove this line to get rid of this error
+
 #define VD_CLIENT_ID @"CLIENT_ID"
 #define VD_CLIENT_SECRET @"CLIENT_SECRET"
 #define VD_MY_ACCESS_TOKEN @"MY_ACCESS_TOKEN"
